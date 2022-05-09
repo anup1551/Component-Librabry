@@ -1,25 +1,10 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-
-:root {
-    var(--primary-color): #FCD34D;
+body{
+    font-size: large
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: large;
-    background-color: var(--primary-color);
-}
-Section {
-    border: 2rem, 4rem;
-    background-color: var(--primary-color);
-    border-bottom-left-radius:10px;
-}
-h3 {
-    margin: none;
-    padding: 10em, 0em;
-    color: green;
-  
+.loot{
+
+    color: orangered;
+    padding: 10px;
 }
