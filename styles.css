@@ -2,10 +2,21 @@
 body{
     font-size: large
 }
-
+:root{
+    --primary-color: #6b21a8;
+    --second-color: #fef08a;
+    --off-white: #e5e7eb;
+}
 .conta{
 
-    color: orangered;
+    color: var(--second-color);
     padding: 10px;
-   
+    text-align: center;
+    max-width: 20%;
+    margin: none;   
+}
+
+ol li{
+    color:var(--primary-color);
+    padding-left: 0px;
 }
