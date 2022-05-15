@@ -35,21 +35,21 @@
    <h2>@Lists</h2>
       <h3>Un-Ordered List</h3>
       <p>Unordered list items comes with bullets </p>
-      <ul class="list-non-bulleted">
+      <ul class="list list-non-bulleted">
           <li>Item 1 </li>
           <li>Item 2</li>
           <li>Item 3</li>
       </ul>
 
       <h3>Inline List</h3>
-      <ul class="list-non-bulleted">Inlline list to be done with CSS just listing items here for now
-          <li>Inline item 1</li>
-          <li>Inline item 2</li>
-          <li>Inline item 3</li>
+      <ul class="list list-non-bulleted">
+          <li class = "list-inline">Inline item 1</li>
+          <li class = "list-inline">Inline item 2</li>
+          <li class = "list-inline">Inline item 3</li>
       </ul>
 
       <h3>Reverse Ordered List</h3>
-      <ol reversed>This is ordered list to reverse it by CSS
+      <ol reversed class="list">This is ordered list to reverse it by CSS
           <li>Ordered item 1</li>
           <li>Ordered item 2 </li>
           <li>Ordered item 3</li>
@@ -59,31 +59,32 @@
     
     <h2>@Nav</h2>
        <h1>Can I call myself coder ?</h1>
-       <nav>
-           <ul>
-           <li><a href = " /">Why</a></li>
-           <li><a href = " /">How</a></li>
+       <nav class = "navigation">
+           <ul class="list list-non-bulleted">
+           <li class = "list-inline"><a class= "link link-primary" href = " /">Why</a></li>
+           <li class = "list-inline"><a class= "link link-primary" href = " /">How</a></li>
            </ul>
        </nav>
     <hr>
 
     <h2>@Header</h2> 
-      <header>
-          <small>This is the header</small>
-          <h3>Also called as Hero </h3>
-          <img src = "images/coder.svg">
+      <header class="hero">
+          <h3 class="hero-heading">Also called as Hero </h3>
+          <img class= "hero-image"src = "images/code.svg">
      
       </header>
 
       <hr>
 
     <h2>@Section</h2>
-    <Section>
-        Normal Section
+    <Section class="center-container">
+        <H3>Normal Section </H3>
+        <p>t's a lot of work to create a professional website, so if you're new to web development, we encourage you to start small. You won't build another Facebook right away, but it's not hard to make your own simple website online, so we'll start there.</p>
     </Section>
 
-    <Section>
-        <H3 class="hola"> Off white Section</H3>
+    <Section class="section-off-white">
+        <H3 id="h3"> Off white Section</H3>
+        <p class="center-container">t's a lot of work to create a professional website, so if you're new to web development, we encourage you to start small. You won't build another Facebook right away, but it's not hard to make your own simple website online, so we'll start there.</p>
     </Section>
 
     <hr>
